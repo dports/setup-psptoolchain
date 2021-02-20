@@ -1,0 +1,8 @@
+name: 'Setup PSPTOOLCHAIN'
+description: 'Sets up PSPTOOLCHAIN for homebrew compilation'
+author: 'krystalgamer'
+runs:
+  using: 'composite'
+  stesps:
+    - run: $GITHUB_ACTION_PATH/setup.sh
+    shell: bash
