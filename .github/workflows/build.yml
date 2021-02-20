@@ -30,3 +30,6 @@ jobs:
         
       - name: Runs the setup-psptoolchain
         uses: ./
+        
+      - name: Makes sure it works
+        run: psp-gcc -v
