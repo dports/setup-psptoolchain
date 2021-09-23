@@ -7,4 +7,4 @@ wget https://github.com/dports/psplibraries/archive/master.tar.gz
 sudo tar -xvf master.tar.gz -C /usr/local/pspdev/
 
 wget https://github.com/dports/psp-ports/archive/master.tar.gz
-sudo tar -xvf master.tar.gz -C /usr/local/pspdev/psp-ports/
+sudo tar -xvf master.tar.gz -C /usr/local/pspdev/
